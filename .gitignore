@@ -1,0 +1,13 @@
+__pycache__/
+.Python
+.tox/
+*.egg-info/
+*.py[cod]
+bin/
+build/
+dist/
+include/
+install/
+lib/
+pip-selfcheck.json
+pip/
