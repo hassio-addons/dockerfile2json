@@ -31,7 +31,7 @@ Dockerfile parser from Docker.
 
 
 APP_NAME = 'dockerfile2json'
-APP_VERSION = '0.1.0'
+APP_VERSION = '0.1.1'
 APP_DESCRIPTION = __doc__
 
 __author__ = 'Franck Nijhof'
@@ -40,5 +40,5 @@ __copyright__ = 'Copyright 2017, Franck Nijhof'
 __license__ = 'MIT'
 __url__ = 'https://github.com/hassio-addons/dockerfile2json'
 __download__ = ('https://github.com/hassio-addons/dockerfile2json'
-                '/archive/0.1.0.tar.gz')
+                '/archive/0.1.1.tar.gz')
 __version__ = APP_VERSION
