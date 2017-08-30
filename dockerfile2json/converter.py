@@ -46,6 +46,6 @@ class Converter(object):
 
     def convert(self):
         """Parse the Dockerfile and output JSON to STDOUT."""
-        parsed_dockerfile = dockerfile.parse_string(self.dockerfile)
+        parsed_dockerfile = dockerfile.parse_string(u""+self.dockerfile)
         json = simplejson.dumps(parsed_dockerfile)
         print(json)
